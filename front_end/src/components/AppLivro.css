@@ -1,0 +1,16 @@
+.main2.container{
+    margin-top:50px;
+}
+
+.submit-button{
+    margin-top:24px !important;
+    float: center;   
+}
+
+.data{
+    margin-top: 55px;
+}
+
+thead tr th{
+    background: #e0e0e0 !important;
+}
