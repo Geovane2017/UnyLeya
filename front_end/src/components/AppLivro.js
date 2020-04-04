@@ -118,24 +118,22 @@ componentDidUpdate(prevProps, prevState){
 
     
     funcaoIDAutor(valor){
-        console.log(' artista antes: ', valor)
-        this.state.autor_id=valor;
-    
-        console.log('Valor artista Depois: ',this.state.autor_id )
+        this.setState({
+            autor_id: valor
+        });
     }
     
     funcaoIDGenero(valor){
-        console.log('genero antes: ', valor)
-        this.state.genero_id=valor;
-    
-        console.log('Valor Genero depois: ',this.state.genero_id )
+        this.setState({
+            genero_id: valor
+        });    
     }
 
     funcaoIDEditora(valor){
-        console.log('genero antes: ', valor)
-        this.state.editora_id=valor;
-    
-        console.log('Valor Genero depois: ',this.state.genero_id )
+        this.setState({
+            editora_id: valor
+        });
+ 
     }
 
     onEdit = data => {

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { } from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
 import AppGenero from './components/AppGenero';
@@ -22,4 +22,4 @@ ReactDOM.render(
  
 
 document.querySelector("#root"));
-//<Route path="/begin" component={App}/>
+//<Route path="/inicio" component={Inicio}/>

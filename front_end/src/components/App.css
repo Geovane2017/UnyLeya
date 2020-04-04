@@ -6,6 +6,12 @@
     
 }
 
+h2{
+    color: blue;
+    margin-top: 60px !important;
+    margin-left: 93px !important;
+}
+
 .main.containerGenero{
     margin-top:90px  !important;
     margin-bottom: 10px  !important;
@@ -47,4 +53,7 @@ thead tr th{
     background: #e0e0e0 !important;
 }
 
+.fixed.inverted.menu{
+    background-color: blue;
+}
 

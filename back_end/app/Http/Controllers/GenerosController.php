@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Generos;
+use App\Models\Generos;
 use Illuminate\Http\Request;
 
 class GenerosController extends Controller

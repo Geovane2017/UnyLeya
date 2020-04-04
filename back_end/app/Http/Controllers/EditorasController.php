@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Editoras;
+use App\Models\Editoras;
 use Illuminate\Http\Request;
 
 class EditorasController extends Controller
