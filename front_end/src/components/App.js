@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import logo from './logo.jpeg'; // Tell webpack this JS file uses this image
 
 import {Link} from 'react-router-dom';
 
