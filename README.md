@@ -17,13 +17,15 @@
 
 	$php artisan serve 
 
-* Acessar o banco de dados laravel no mysql e executar os scripts do arquivo inserts.SQL na ordem em que estão, com o banco de dados vazio
+* Acessar o banco de dados laravel no mysql usando o comando: use laravel; 
+
+* Executar os scripts do arquivo inserts.SQL na ordem em que estão, com o banco de dados vazio
 
 
 * No terminal do front_end execute os seguintes comandos: 
 	
 	$npm install
 
-	$sudo npm run start ou $npm run start(na segunda opção, é necessário abrir um navegador e acessar o front_end pelo endereço: localhost:3000)
+	$sudo npm run start ou $npm run start(na segunda opção, é necessário abrir um navegador e acessar o front_end pelo endereço: http://localhost:3000/)
 
 
